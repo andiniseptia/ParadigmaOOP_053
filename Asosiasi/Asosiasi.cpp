@@ -23,7 +23,7 @@ public:
 	vector<pasien*> daftar_pasien;
 
 	dokter(string pNama) :nama(pNama) {
-		cout << "okter \"" << nama << "\" ada\n";
+		cout << "Dokter \"" << nama << "\" ada\n";
 	}
 	~dokter() {
 		cout << "Dokter \"" << nama << "\" tidak ada\n";
@@ -38,7 +38,7 @@ void pasien::tambahDokter(dokter* pDokter) {
 }
 void pasien::cetakDokter() {
 	cout << "Daftar Dokter yang menangani pasien \"" << this->nama << "\":\n";
-	for (uto& a : daftar_dokter) {
+	for (auto& a : daftar_dokter) {
 		cout << a->nama << "\n";
 	}
 	cout << endl;
