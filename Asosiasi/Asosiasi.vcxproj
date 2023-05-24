@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d2c6e88f-807a-4788-8e0b-f88b0ccbc9f4}</ProjectGuid>
+    <ProjectGuid>{c4c0373b-8caa-4193-9613-c4968a4f550d}</ProjectGuid>
     <RootNamespace>Asosiasi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
